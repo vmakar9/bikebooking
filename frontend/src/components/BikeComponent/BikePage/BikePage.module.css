@@ -1,0 +1,24 @@
+.BikePage {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.BikeListContainer {
+    flex: 1;
+}
+
+.BikeFormStatsContainer {
+    margin-top: 5px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.BikeFormContainer {
+    flex: 1;
+}
+
+.StatsContainer {
+    margin-top: 20px;
+}

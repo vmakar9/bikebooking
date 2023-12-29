@@ -1,0 +1,84 @@
+.BikeList{
+  margin: 5px 0 10px 0;
+    width: 95%;
+  box-sizing: border-box;
+    position: relative
+}
+
+.BikeBlock{
+    border: green 1px solid;
+    border-radius: 10px;
+    background-color: lightgray;
+
+}
+
+.NameTypeColor{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.Status{
+    background-color: lightgray;
+    border: none;
+    outline: none;
+    padding: 5px;
+    color: black;
+
+
+}
+
+.Status:hover{
+    cursor: pointer;
+}
+
+.Status:focus{
+    box-shadow: none
+}
+
+
+.BikeBlock .Price{
+    display: flex;
+    justify-content: end;
+}
+
+.BikeBlock .Delete{
+    position: absolute;
+    top: 10px; /* You can adjust this value to set the distance from the top */
+    right: 10px;
+}
+
+.StatusBlock{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Stat{
+    display: inline-flex;
+}
+
+.Delete{
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.Delete:hover{
+    color: red;
+}
+
+
+.available {
+    border: 1px solid green;
+}
+
+.booked {
+    border: 1px solid yellow;
+}
+
+.busy {
+    border: 1px solid orange;
+}
+
+.unavailable {
+    border: 1px solid red;
+}

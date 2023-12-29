@@ -1,0 +1,40 @@
+.NameType{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.ColorWheelSize{
+    display: flex;
+    flex-direction: row;
+   gap: 15px;
+    margin-bottom: 10px;
+}
+
+.Price{
+    margin-bottom: 10px;
+}
+
+.Input{
+    width: 40%;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.Buttons{
+    margin-top: 10px;
+    display: flex;
+    gap:20px
+}
+.Button{
+    width: 41%;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.Description{
+    width: 84%;
+    background-color: lightgray;
+    border-radius: 5px;
+}

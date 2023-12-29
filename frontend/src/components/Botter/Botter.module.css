@@ -1,0 +1,11 @@
+.Botter{
+    width: 100%;
+    background-color: rgb(128, 128, 128);
+    height: 40px;
+    text-align: end;
+}
+
+.developer{
+    padding-top: 10px;
+    font-family: Georgia, sans-serif;
+}
